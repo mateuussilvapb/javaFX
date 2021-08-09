@@ -1,0 +1,33 @@
+.conteudo {
+	-fx-background-color: black;
+	-fx-font-family: Oswald;
+}
+
+.titulo {
+	-fx-text-fill: #80ffff;
+	-fx-font-size: 22px;
+}
+
+.numero {
+	-fx-text-fill: #fff;
+	-fx-font-size: 22px;
+}
+
+.positivo {
+	-fx-text-fill: #00ff40;
+	-fx-font-size: 22px;
+}
+
+.negativo {
+	-fx-text-fill: #ff0000;
+	-fx-font-size: 22px;
+}
+
+.botao {
+	-fx-background-color: white;
+	-fx-text-fill: black;
+	-fx-font-size: 30px;
+	-fx-min-width: 60px;
+	-fx-min-height: 60px;
+	-fx-background-radius: 30px;
+}
