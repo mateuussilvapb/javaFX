@@ -11,17 +11,22 @@
 	<padding>
 		<Insets left="40" right="40" top="40" />
 	</padding>
-	
+
 	<columnConstraints>
 		<ColumnConstraints minWidth="50" prefWidth="50"
-			halignment="RIGHT"/>
-		<ColumnConstraints prefWidth="200" maxWidth="Infinity"
-			hgrow="ALWAYS"/>
+			halignment="RIGHT" />
+		<ColumnConstraints prefWidth="200"
+			maxWidth="Infinity" hgrow="ALWAYS" />
 	</columnConstraints>
 
 	<Label text="Seja Bem Vindo" GridPane.columnIndex="0"
 		GridPane.RowIndex="0" styleClass="login-titulo"
-		GridPane.columnSpan="2" GridPane.halignment="CENTER"></Label>
+		GridPane.columnSpan="2" GridPane.halignment="CENTER">
+
+		<GridPane.margin>
+			<Insets top="20" bottom="20" />
+		</GridPane.margin>
+	</Label>
 
 	<Label text="E-mail:" GridPane.columnIndex="0"
 		GridPane.RowIndex="1" styleClass="login-form-label"></Label>
@@ -35,7 +40,11 @@
 
 	<Button text="Entrar" GridPane.columnIndex="0"
 		GridPane.RowIndex="3" onAction="#entrar" styleClass="login-form-botao"
-		GridPane.columnSpan="2" GridPane.halignment="CENTER"></Button>
+		GridPane.columnSpan="2" GridPane.halignment="CENTER">
+		<GridPane.margin>
+			<Insets top="20" bottom="20" />
+		</GridPane.margin>
+	</Button>
 
 </GridPane>
 
